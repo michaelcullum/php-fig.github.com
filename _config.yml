@@ -1,12 +1,9 @@
 # jekyll config
 safe:        true
 lsi:         false
-highlighter: pygments
+highlighter: rouge
 permalink:   /news/:title/
 exclude:     [vendor]
-markdown:    redcarpet
-redcarpet:
-  extensions: [tables, with_toc_data]
 gems:
   - jekyll-redirect-from
 
